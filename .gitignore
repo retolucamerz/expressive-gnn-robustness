@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+__pycache__/
+slurm_log/
+data/
+results/
+.vscode/
+*.pdf
+old_models/
+saved_models/
+runs/
+wandb/
+*.prof
