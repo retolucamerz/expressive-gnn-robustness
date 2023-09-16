@@ -3,6 +3,11 @@
 This repository contains the code for my bachelor's thesis.
 
 
+### Abstract
+
+In recent years, graph neural networks (GNNs) have gained popularity as a tool for machine learning on graphs. Despite their success in many fields, many GNN architectures lack the expressiveness to differentiate between non-isomorphic graphs of certain classes, motivating more expressive architectures. Other works have shown basic GNN architectures and defenses vulnerable to adversarial attacks, which generate adversarial examples that are mispredicted by the model. We investigate how the expressivity of a GNN architecture influences its robustness to adversarial attacks by designing graph-level test-time attacks targeting the discrete structure of graphs with node and edge features. Our experiments indicate that PPGN, the most expressive architecture tested, is more robust on a range of attacks than the other tested architectures, and can even outperform adversarially trained models of other expressive architectures under attacks.
+
+
 ### Environment and Tests
 
 To setup the environment, run the following commands:
